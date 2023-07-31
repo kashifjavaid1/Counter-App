@@ -1,0 +1,49 @@
+/* Counter.css */
+
+.countener {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .head {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+   
+  }
+  button:hover{
+    color: white;
+    background-color: #2fd358;
+  }
+  button:active {
+    background-color:darkmagenta;
+  } 
+  button.reset {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button.reset:hover {
+    background-color: #2fd358;
+  }
+  
+  button.reset:active {
+    background-color:darkmagenta;
+  } 
+  span {
+    font-size: 36px;
+    margin: 0 10px;
+  }
+  
